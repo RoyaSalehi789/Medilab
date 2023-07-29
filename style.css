@@ -66,6 +66,10 @@ margin: 5px 0px 0px 100px;
 .header a:hover{
     background-color: rgba(12, 184, 182,.3);
 }
+.header h4{
+    font-size: 25px;
+    padding-bottom: 8px;
+}
 
 /* services */
 .service-container{
@@ -103,4 +107,61 @@ hr{
     position: relative;
     border: 0;
     margin: 15px 0px;
+}
+
+/* table */
+table ,td{
+    border:1px solid whitesmoke;
+    border-collapse: collapse;
+}
+td{
+    color: white;
+    border: 0px solid #ededed;
+    border-top: 1px solid rgba(216, 216, 216, .6);
+    padding: 2px 50px 2px 45px;
+}
+.table{
+    margin-top: -340px;
+    display: grid;
+    grid-template-columns: repeat(3,390px);
+    grid-template-rows: repeat(3,200px);
+    gap:1px ;
+    margin-right: 35px;
+}
+.table-item{
+    position: relative;
+    right: 10px;
+    background-color: #359795;
+    color: white;
+
+}
+.table p{
+    font-size: 13.5px;
+}
+.table h4{
+    font-size: 17px;
+    padding: 20px 20px 0px;
+    text-align: start;
+}
+.table-item table{
+    text-align: center;
+    margin-right: 22px;
+    margin-top: 24px;
+    font-size:14px ;
+    box-shadow: 1px 1px 4px white;
+}
+.table-item p{
+    padding: 20px 20px 20px 20px;
+}
+.table-item a{
+    text-decoration: none;
+    color: white;
+    border: solid 1px white;
+    font-size: 13px;
+    margin-right: 20px;
+    padding: 4px 7px;
+    box-shadow: 1px 1px 3px white;
+}
+.table-item a:hover{
+    background-color: rgba(82, 151, 150);
 }
