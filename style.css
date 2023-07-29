@@ -66,3 +66,41 @@ margin: 5px 0px 0px 100px;
 .header a:hover{
     background-color: rgba(12, 184, 182,.3);
 }
+
+/* services */
+.service-container{
+    padding: 80px;
+    margin-top: 180px;
+    display: grid;
+    grid-template-columns: repeat(3,345px);
+    grid-template-rows: repeat(3,233px);
+
+}
+.item{
+    position: relative;
+    right: 30px;
+    padding: 5px 10px 10px 10px;
+    font-size: 13.5px;
+}
+.item i{
+    padding-bottom: 15px;
+}
+.item p{
+    color: #5a5858;
+    padding-top: 10px;
+}
+.item h4{
+    font-size: 20px;
+    font-weight: bold;
+}
+.item3 h4{
+    font-size: 24px;
+}
+hr{
+    width: 60px;
+    height: 3px;
+    background: red;
+    position: relative;
+    border: 0;
+    margin: 15px 0px;
+}
