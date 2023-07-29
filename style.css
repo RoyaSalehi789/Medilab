@@ -203,7 +203,7 @@ td{
 /* about */
 .about{
     position: relative;
-    bottom: 200px;
+    bottom: 100px;
 }
 .dr-container{
     display: flex;
@@ -251,4 +251,53 @@ td{
 }
 .about hr{
     right: 90px;
+}
+
+/* comments */
+.comments{
+    background-color: #eeeeee;
+    margin-bottom: 500px;
+}
+.detail-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 35px;
+    padding: 0px 140px;
+}
+.comments .detail-container .detail .datail-text{
+    background-color: white;
+    padding: 10px 20px;
+    font-size: 13px;
+    color:#5a5858;
+    box-shadow: 3px 3px 2px 0 rgba(0, 0, 0, .18);
+}
+.comments .detail-container .detail .person-info img{
+    float: left;
+    width: 50px;
+    position: relative;
+    bottom: 10px;
+}
+.triangle{
+    width: 0;
+    height: 0;
+    border-left: 0 solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #fff;
+    float: left;
+    margin-left: 40px;
+}
+.person-info{
+    margin: 10px 20px;
+}
+.person-info p{
+    color: #5a5858;
+    font-size: 14px;
+}
+.comments h2{
+    padding: 10px 0px 5px;
+    font-size: 18px;
+}
+.comments hr{
+    right: 90px;
+    margin-bottom: 20px;
 }
