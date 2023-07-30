@@ -208,7 +208,8 @@ td{
     bottom: 500px;
 }
 .dr-container{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4,240px);
     justify-content: center;
     gap: 20px;
 }
@@ -452,4 +453,76 @@ td{
     text-align: center;
     font-size: 14px;
     color:#999999;
+}
+
+/* media*/
+@media screen and (max-width: 600px){
+    .main-nav ul{
+        display:grid;
+    }
+    .main-nav{
+        height: 220px;
+        position: absolute;
+    }
+    .header img{
+        margin-top: 130px;
+    }
+    .service-container{
+        grid-template-columns: repeat(1,345px);
+        margin-bottom: 280px;
+        margin-right: -30px;
+        margin-top: 20px;
+    }
+    .table{
+        grid-template-columns: repeat(1,390px);  
+        margin-bottom: 350px;
+        margin-right: 35px;
+    }
+    .table-item{
+        margin-bottom: 5px;
+    }
+    .textbox{
+        grid-template-columns: repeat(1,355px);
+
+    }
+    .textbox h3{
+        margin-top: 20px;
+    }
+    .dr-container{
+        grid-template-columns: repeat(1,240px);
+    }
+    .detail-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .about-us{
+        grid-template-columns: repeat(1,1fr);
+        right: 20px;
+        bottom: 25px;
+    }
+    .about-us p{
+        font-size: 13px;
+        padding-top: 20px;
+    }
+    .contact-form{
+        grid-template-columns:repeat(1,1fr);
+    }
+    .contact{
+        margin-right: 40px;
+    }
+    .contact-info{
+        margin-top: -150px;
+    }
+    .footer{
+        grid-template-columns: repeat(1,350px);
+    }
+    .icon{
+        margin-bottom: 20px;
+    }
+    .about-footer{
+        margin-top: 20px;
+    }
+    .footer-container{
+        bottom: 600px;
+    }
+    
 }
