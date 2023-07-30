@@ -114,6 +114,7 @@ hr{
 table ,td{
     border:1px solid whitesmoke;
     border-collapse: collapse;
+    position: relative;
 }
 td{
     color: white;
@@ -122,12 +123,14 @@ td{
     padding: 2px 50px 2px 45px;
 }
 .table{
-    margin-top: -340px;
+    margin-top: 0px;
     display: grid;
     grid-template-columns: repeat(3,390px);
     grid-template-rows: repeat(3,200px);
     gap:1px ;
     margin-right: 35px;
+    position: relative;
+    bottom: 300px;
 }
 .table-item{
     position: relative;
@@ -172,9 +175,8 @@ td{
     display: grid;
     grid-template-columns: repeat(2,500px);
     position: relative;
-    bottom: 300px;
+    bottom: 600px;
     justify-content: space-around;
-    right: 20px;
 }
 .textBox-item p{
     color: #5a5858;
@@ -200,10 +202,10 @@ td{
     font-size: 24px;
 }
 
-/* about */
+/* about Dr */
 .about{
     position: relative;
-    bottom: 100px;
+    bottom: 500px;
 }
 .dr-container{
     display: flex;
@@ -256,7 +258,9 @@ td{
 /* comments */
 .comments{
     background-color: #eeeeee;
-    margin-bottom: 500px;
+    position: relative;
+    bottom: 400px;
+    padding-top: 20px;
 }
 .detail-container{
     display: grid;
@@ -297,7 +301,30 @@ td{
     padding: 10px 0px 5px;
     font-size: 18px;
 }
-.comments hr{
-    right: 90px;
+.comments hr ,.comments h1{
+    margin-right: 90px;
     margin-bottom: 20px;
+}
+
+/* about us */
+.about-us-container{
+    background-color:rgb(41, 48, 46);
+    position: relative;
+    bottom: 390px;
+}
+.about-us{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 1000px;
+    position: relative;
+    right: 150px;
+    padding-top: 80px;
+    color: #fff;
+}
+.about-us h1{
+    font-size: 24px;
+}
+.about-us p{
+    font-size: 14px;
+    width: 380px;
 }
