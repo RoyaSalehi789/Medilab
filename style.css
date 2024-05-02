@@ -79,7 +79,7 @@ margin: 5px 0px 0px 100px;
     display: grid;
     grid-template-columns: repeat(3,345px);
     grid-template-rows: repeat(3,233px);
-
+    justify-content: center;
 }
 .item{
     position: relative;
@@ -131,6 +131,7 @@ td{
     margin-right: 35px;
     position: relative;
     bottom: 300px;
+    justify-content: center;
 }
 .table-item{
     position: relative;
@@ -176,7 +177,7 @@ td{
     grid-template-columns: repeat(2,500px);
     position: relative;
     bottom: 600px;
-    justify-content: space-around;
+    justify-content: center;
 }
 .textBox-item p{
     color: #5a5858;
